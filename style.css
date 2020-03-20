@@ -4,6 +4,11 @@ html {
 body {
   margin: 0;
 }
+
+p {
+  font-size: 14px;
+}
+
 section {
   width:  100vw;
   height: 100vh;
@@ -28,15 +33,15 @@ section > a {
 
 section h1 {
   margin-top: 0;
+  font-size: 20px;
 }
-section h1,
-section p {
-  padding-right: 200px;
+section h1 {
+  padding-right: 100px;
 }
 section img[src="bundesministerium.svg"] {
   position: absolute;
   top: 16px;
   right: 16px;
-  width: 180px;
-  height: 90px;
+  width: 90px;
+  height: 45px;
 }

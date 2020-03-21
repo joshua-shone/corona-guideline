@@ -1,0 +1,36 @@
+{
+  "start": {
+    "title": "Coronavirus-Leitfaden",
+    "description": "Beantworten Sie ein paar Fragen und wir finden die passende Information. Es werden keine Daten gespeichert.",
+    "answers": [
+      {"id": "got-corona", "text": "Ich glaube ich habe den Corona-Virus", "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"},
+      {"id": "sick", "text": "Ich bin krank.", "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"},
+      {"id": "healthy", "text": "Ich fühle mich gesund.", "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"}
+    ]
+  },
+  "got-corona": {
+    "title": "Ich glaube ich habe den Corona-Virus",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+    "answers": [
+      {"id": "foo", "text": "Yes", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"},
+      {"id": "bar", "text": "No", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"}
+    ]
+  },
+  "sick": {
+    "title": "Ich bin krank.",
+    "description": "Well, you shouldn't go out if you're sick anytime, and especially not now. Let's look at your symptoms. Do you have:",
+    "answers": [
+      {"id": "anxious", "text": "Anxious, irritable, stressed.."},
+      {"id": "mild-symptoms", "text": "Runny nose, dry cough, NO fever"},
+      {"id": "severe-symptoms", "text": "Fever, dry cough, exhaustion, sweats"}
+    ]
+  },
+  "healthy": {
+    "title": "Ich fühle mich gesund.",
+    "description": "Have you had close contact with anyone diagnosed with corona virus?",
+    "answers": [
+      {"id": "corona-contact", "text": "Yes"},
+      {"id": "no-corona-contact", "text": "No"}
+    ]
+  }
+}

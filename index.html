@@ -3,53 +3,21 @@
 
     <head>
       <meta charset="utf-8"/>
-      <title>Corona Questions</title>
+      <title>Coronavirus-Leitfaden</title>
       <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
 
-      <section id="start">
-        <h1>Coronavirus-Leitfaden</h1>
-        <img src="bundesministerium.svg">
-        <p>
-          Beantworten Sie ein paar Fragen und wir finden die passende Information. Es werden keine Daten gespeichert.
-        </p>
-        <form>
-          <label> <input type="radio" name="answer" value="sick"> <span>Ich bin krank.</span> </label>
-          <label> <input type="radio" name="answer" value="healthy"> <span>Ich fühle mich gesund.</span> </label>
-          <button type="submit">Weiter</button>
-        </form>
-      </section>
+      <h1 id="title"></h1>
 
-      <section id="sick">
-        <p>Well, you shouldn't go out if you're sick anytime, and especially not now. Let's look at your symptoms. Do you have:</p>
-        <form>
-          <label> <input type="radio" name="answer" value="anxious"> <span>Anxious, irritable, stressed..</span> </label>
-          <label> <input type="radio" name="answer" value="mild-symptoms"> <span>Runny nose, dry cough, NO fever</span> </label>
-          <label> <input type="radio" name="answer" value="severe-symptoms"> <span>Fever, dry cough, exhaustion, sweats</span> </label>
-          <button class="back-button">Zurück</button>
-          <button type="submit">Weiter</button>
-        </form>
-      </section>
+      <p id="description"></p>
 
-      <section id="healthy">
-        <p>Have you had <em>close</em> contact with anyone diagnosed with corona virus?</p>
-        <form>
-          <label> <input type="radio" name="answer" value="corona-contact"> <span>Yes</span> </label>
-          <label> <input type="radio" name="answer" value="no-corona-contact"> <span>No</span> </label>
-          <button class="back-button">Zurück</button>
-          <button type="submit">Weiter</button>
-        </form>
-      </section>
-
-      <section id="corona-contact">
-
-      </section>
-
-      <section id="no-corona-contact">
-
-      </section>
+      <form>
+        <div id="answers"></div>
+        <button id="back-button">Zurück</button>
+        <button type="submit">Weiter</button>
+      </form>
 
     </body>
 

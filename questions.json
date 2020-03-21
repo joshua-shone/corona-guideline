@@ -1,7 +1,7 @@
 {
   "start": {
-    "title": "Coronavirus-Leitfaden",
-    "description": "Beantworten Sie ein paar Fragen und wir finden die passende Information. Es werden keine Daten gespeichert.",
+    "title": "Coronavirus-Ratgeber",
+    "description": "Der offizielle Coronavirus-Ratgeber vom Bundesministerium für Gesundheit ist eine Fragenkatalog, mit dem Sie innerhalb weniger Minuten spezifische Handlungsempfehlungen erhalten.",
     "answers": [
       {"id": "got-corona", "text": "Ich glaube ich habe den Corona-Virus", "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"},
       {"id": "sick", "text": "Ich bin krank.", "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"},
@@ -9,16 +9,16 @@
     ]
   },
   "got-corona": {
-    "title": "Ich glaube ich habe den Corona-Virus",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed",
+    "title": "Ich bin krank. Habe ich mich mit dem Coronavirus infiziert?",
+    "description": "Es werden Ihnen Fragen nach aktuellen Symptomen, Ihren letzten Reisen und möglichen Kontakten gestellt und anschließend Handlungsempfehlungen gegeben",
     "answers": [
       {"id": "foo", "text": "Yes", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"},
       {"id": "bar", "text": "No", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed"}
     ]
   },
   "sick": {
-    "title": "Ich bin krank.",
-    "description": "Well, you shouldn't go out if you're sick anytime, and especially not now. Let's look at your symptoms. Do you have:",
+    "title": "Ich fühle mich gesund. Wie sollte ich mich verhalten?",
+    "description": "Wir geben Ihnen eine Übersicht der wichtigsten Verhaltensregeln.",
     "answers": [
       {"id": "anxious", "text": "Anxious, irritable, stressed.."},
       {"id": "mild-symptoms", "text": "Runny nose, dry cough, NO fever"},
@@ -26,8 +26,8 @@
     ]
   },
   "healthy": {
-    "title": "Ich fühle mich gesund.",
-    "description": "Have you had close contact with anyone diagnosed with corona virus?",
+    "title": "Ich bin gefährdet. Wer kann mich unterstützen?",
+    "description": "Wir vernetzen Sie mit engeagierten HelferInnen aus Ihrer Nachbarschaft.",
     "answers": [
       {"id": "corona-contact", "text": "Yes"},
       {"id": "no-corona-contact", "text": "No"}
